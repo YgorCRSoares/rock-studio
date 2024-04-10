@@ -824,7 +824,6 @@ button[name=backSite] {
     max-height: 200vh;
     margin: 0 auto;
     background-size: 100vh no-repeat;
-    margin-top: 13%;
   }
 
   h1 {
@@ -839,6 +838,10 @@ button[name=backSite] {
     font-size: 5.3vh;
   }
 
+  .menu {
+    top: 1%;
+  }
+  
   .shareBtn {
     display: none;
   }
