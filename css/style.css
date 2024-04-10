@@ -309,12 +309,14 @@ section {
 h1 {
   position: absolute;
   text-align: left;
+  top: 15%;
   width: 80%;
   left: 50%;
   transform: translateX(-50%);
   bottom: 74%;
   font-size: 12vh;
   font-weight: 900;
+  line-height: 50px;
   letter-spacing: 3px;
   color: #ffffff;
   mix-blend-mode: difference;
@@ -346,7 +348,7 @@ h1 {
   }
 }
 
-h2 {
+/* h2 {
   font-size: 2rem;
 }
 
@@ -370,7 +372,7 @@ h2#slogan {
   animation: slideY 2s cubic-bezier(0.17, 0.67, 0.14, 0.97) both;
   -webkit-animation-delay: 1s;
   animation-delay: 2s;
-}
+} */
 
 @-webkit-keyframes slideY {
   from {
@@ -827,15 +829,9 @@ button[name=backSite] {
   }
 
   h1 {
-    top: 30vh;
+    top: 40vh;
     width: 90%;
-    font-size: 7vh;
-  }
-
-  h2#slogan {
-    top: 35.5vh;
-    width: 90%;
-    font-size: 5.3vh;
+    font-size: 60px;
   }
 
   .menu,
@@ -843,7 +839,7 @@ button[name=backSite] {
     top: 1%;
     right: 1%;
   }
-  
+
   .shareBtn {
     display: none;
   }
