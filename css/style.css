@@ -38,7 +38,6 @@ body {
   font-size: 16px;
   background-color: #101112;
   margin: auto;
-  /* max-width: 95%; */
 }
 
 /* CUSTOM SCROLLBAR*/
@@ -287,6 +286,7 @@ section {
 }
 
 .separator {
+  align-self: center;
   width: 20.5vw;
   height: 2px;
   margin-top: 0px;
@@ -416,7 +416,6 @@ p.miniPara {
   font-weight: 900;
   text-align: center;
   width: 70%;
-  margin: 20px auto 50px auto;
 }
 
 .imgContent {
@@ -923,26 +922,32 @@ button[name=backSite] {
   }
 }
 
-@media all and (max-width: 320px) {
-  table {
-    font-size: 0.8rem;
+@media screen and (max-width: 390px) {
+  body {
+    width: 408px;
   }
 
-  table td:last-of-type {
-    display: none;
+  @media all and (max-width: 320px) {
+
+    table {
+      font-size: 0.8rem;
+    }
+
+    table td:last-of-type {
+      display: none;
+    }
+
+    .hardLight {
+      font-size: 2vh;
+    }
+
+    form.newsletterForm input[type=email] {
+      width: 50%;
+    }
+
+    .footerBaner p.bolder {
+      font-size: 0.8rem;
+    }
   }
 
-  .hardLight {
-    font-size: 2vh;
-  }
-
-  form.newsletterForm input[type=email] {
-    width: 50%;
-  }
-
-  .footerBaner p.bolder {
-    font-size: 0.8rem;
-  }
-}
-
-/* #sourceMappingURL=style.css.map */
+  /* #sourceMappingURL=style.css.map */
