@@ -828,14 +828,15 @@ button[name=backSite] {
   }
 
   h1 {
+    top: 25%;
     width: 90%;
-    font-size: 4vh;
+    font-size: 7vh;
   }
 
   h2#slogan {
+    top: 30%;
     width: 90%;
-    font-size: 4vh;
-    margin-top: 0px;
+    font-size: 6vh;
   }
 
   .shareBtn {
