@@ -416,7 +416,7 @@ p.miniPara {
   font-weight: 900;
   text-align: center;
   width: 70%;
-  margin: 70px auto 70px auto;
+  margin: 20px auto 50px auto;
 }
 
 .imgContent {
@@ -515,7 +515,6 @@ p.pink:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 70vh;
 }
 
 footer {
@@ -849,7 +848,7 @@ button[name=backSite] {
   }
 
   section {
-    padding: 50px 2% 50px 2%;
+    padding: 0px 2% 0px 2%;
   }
 
   section.blocNewsletter {
