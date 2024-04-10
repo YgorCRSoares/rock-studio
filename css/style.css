@@ -819,16 +819,22 @@ button[name=backSite] {
 }
 
 @media screen and (max-width: 767px) {
+  .mainView {
+    min-height: 30vh;
+    max-height: 60vh;
+    background-size: 30vh no-repeat;
+    margin-top: 10%;
+  }
+
   h1 {
     width: 90%;
     font-size: 4vh;
-    bottom: 45%;
   }
 
   h2#slogan {
     width: 90%;
     font-size: 4vh;
-    bottom: 20%;
+    margin-top: 0px;
   }
 
   .shareBtn {
