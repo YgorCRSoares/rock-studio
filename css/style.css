@@ -838,7 +838,8 @@ button[name=backSite] {
     font-size: 5.3vh;
   }
 
-  .menu {
+  .menu,
+  .ss-menu {
     top: 1%;
     right: 1%;
   }
