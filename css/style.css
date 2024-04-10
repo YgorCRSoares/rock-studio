@@ -299,7 +299,7 @@ section {
   min-height: 100vh;
   max-height: 100vh;
   color: #9fa0ac;
-  background: url("../img/backgroujnd.gif");
+  background: url("../img/background.gif");
   background-size: cover;
   background-position: center;
   background-color: transparent;
@@ -820,10 +820,11 @@ button[name=backSite] {
 
 @media screen and (max-width: 767px) {
   .mainView {
-    min-height: 30vh;
-    max-height: 60vh;
-    background-size: 30vh no-repeat;
-    margin-top: 10%;
+    min-height: 113vh;
+    max-height: 200vh;
+    margin: 0 auto;
+    background-size: 100vh no-repeat;
+    margin-top: 13%;
   }
 
   h1 {
@@ -941,16 +942,6 @@ button[name=backSite] {
   .footerBaner p.bolder {
     font-size: 0.8rem;
   }
-}
-
-.efeito-vidro {
-  margin-top: -50px;
-  margin-left: -50%;
-  height: 100vh;
-  width: 171.4%;
-  background: rgba(255, 255, 255, 0);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(13.5px);
 }
 
 /* #sourceMappingURL=style.css.map */
