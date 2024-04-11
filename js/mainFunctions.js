@@ -1,3 +1,10 @@
+window.addEventListener("orientationchange", function() {
+    // Evita o recarregamento da página
+    event.preventDefault();
+    // Executa qualquer outra ação necessária quando a orientação da tela muda
+    // Por exemplo, redimensionar elementos na página para se adaptar à nova orientação
+}, false);
+
 // Toggle class menu
 $(function () {
   $('.menu').on('click', function () {
