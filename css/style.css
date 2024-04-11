@@ -31,11 +31,9 @@ a {
 }
 
 body {
-  font-family: "Sans Serif", system-ui;
   font-display: swap;
   font-size: 1rem;
   color: #FEFEFE;
-  font-size: 16px;
   background-color: #101112;
   margin: auto;
 }
@@ -294,16 +292,12 @@ section {
   background-color: #ff0000e6;
 }
 
-.mainView {
-  position: relative;
-  min-height: 100vh;
-  max-height: 100vh;
-  color: #9fa0ac;
+#mainView {
   background: url("../img/background.webp");
   background-size: cover;
   background-position: center;
-  background-color: transparent;
-  ;
+  min-height: 100vh;
+  max-height: 100vh;
 }
 
 h1 {
@@ -415,7 +409,7 @@ p.miniPara {
   line-height: 40px;
   font-weight: 900;
   text-align: center;
-  width: 70%;
+  /* width: 70%; */
 }
 
 .imgContent {
@@ -511,7 +505,7 @@ p.pink:hover {
 .ss-nextShow,
 .ss-music {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -804,7 +798,15 @@ button[name=backSite] {
   transition: all ease-in-out 1s;
 }
 
+
 @media screen and (max-width: 1024px) {
+
+
+  .videowrapper iframe {
+    width: 40vh;
+    height: 22.5vh;
+  }
+
   .menu:hover .line1 {
     transform: scaleX(0.5);
   }
@@ -819,6 +821,25 @@ button[name=backSite] {
 }
 
 @media screen and (max-width: 767px) {
+
+  #conheçaomaluco {
+    font-size: 3vh;
+  }
+
+  p.animatableY.showed {
+    text-align: center;
+    line-height: 22px;
+  }
+
+  .videowrapper {
+    float: none;
+    clear: both;
+    position: relative;
+    padding-bottom: 56.25%;
+    align-self: center;
+    height: 0;
+  }
+
   .mainView {
     min-height: 113vh;
     max-height: 200vh;
@@ -922,9 +943,18 @@ button[name=backSite] {
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 375px) {
   body {
-    width: 408px;
+    width: 375px;
+  }
+
+  .videowrapper {
+    float: none;
+    clear: both;
+    position: relative;
+    padding-bottom: 56.25%;
+    align-self: center;
+    height: 0;
   }
 
   @media all and (max-width: 320px) {
@@ -949,5 +979,6 @@ button[name=backSite] {
       font-size: 0.8rem;
     }
   }
+}
 
-  /* #sourceMappingURL=style.css.map */
+/* #sourceMappingURL=style.css.map */
