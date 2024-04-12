@@ -270,16 +270,31 @@ $(function () {
   }
 })
 
-// resize reload
-// $(function () {
-//   let initialWidth = $(window).innerWidth();
-//   $(window).on('resize', function () {
-//     let newWidth = $(window).innerWidth();
-//     if (initialWidth != newWidth) {
-//       document.location.reload(true);
-//     }
-//   })
-// })
+// RELOAD
+$(function () {
+  let startY;
+
+  $(window).on('touchstart', function (e) {
+    let touch = e.originalEvent.touches[0];
+    startY = touch.clientY;
+  });
+
+  $(window).on('touchmove', function (e) {
+    if (!startY) return;
+
+    let touch = e.originalEvent.touches[0];
+    let deltaY = touch.clientY - startY;
+
+    // Se o usuário moveu o dedo para baixo (mais do que 50 pixels), recarregue a página
+    if (deltaY > 50) {
+      document.location.reload(true);
+    }
+  });
+
+  $(window).on('touchend', function () {
+    startY = null;
+  });
+});
 
 // Manage scroll up button
 $(function () {
