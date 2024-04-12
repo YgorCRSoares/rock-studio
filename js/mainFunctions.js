@@ -343,3 +343,29 @@ $(function () {
     window.location.href = "https://www.instagram.com/";
   });
 })
+
+// Teste ----------------------------------------
+
+        var container = document.getElementById('container');
+        var startY;
+
+        container.addEventListener('touchstart', function(e) {
+            var touch = e.touches[0];
+            startY = touch.clientY;
+        });
+
+        container.addEventListener('touchmove', function(e) {
+            if (!startY) return;
+
+            var touch = e.touches[0];
+            var deltaY = touch.clientY - startY;
+
+            // Se o usuário moveu o dedo para baixo (mais do que 50 pixels), atualize a página
+            if (deltaY > 50) {
+                location.reload();
+            }
+        });
+
+        container.addEventListener('touchend', function() {
+            startY = null;
+        });
