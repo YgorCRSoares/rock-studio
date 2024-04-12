@@ -271,15 +271,15 @@ $(function () {
 })
 
 // resize reload
-$(function () {
-  let initialWidth = $(window).innerWidth();
-  $(window).on('resize', function () {
-    let newWidth = $(window).innerWidth();
-    if (initialWidth != newWidth) {
-      document.location.reload(true);
-    }
-  })
-})
+// $(function () {
+//   let initialWidth = $(window).innerWidth();
+//   $(window).on('resize', function () {
+//     let newWidth = $(window).innerWidth();
+//     if (initialWidth != newWidth) {
+//       document.location.reload(true);
+//     }
+//   })
+// })
 
 // Manage scroll up button
 $(function () {
