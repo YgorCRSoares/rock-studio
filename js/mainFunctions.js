@@ -274,9 +274,12 @@ $(function () {
 $(function () {
   let startY;
 
-  $(window).on('touchstart', function (e) {
-    let touch = e.originalEvent.touches[0];
-    startY = touch.clientY;
+ $(window).on('touchstart', function (e) {
+    // Verificar se o usuário está no topo da página
+    if ($(window).scrollTop() === 0) {
+      let touch = e.originalEvent.touches[0];
+      startY = touch.clientY;
+    }
   });
 
   $(window).on('touchmove', function (e) {
