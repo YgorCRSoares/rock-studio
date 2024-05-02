@@ -639,7 +639,6 @@ form.newsletterForm input[type=submit]:hover {
   cursor: pointer;
   transition: all ease-in-out 250ms;
   background-color: #494e6e;
-  -moz-background
 }
 
 .contactForm input[type=submit]:hover {
