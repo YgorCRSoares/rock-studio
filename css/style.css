@@ -11,6 +11,10 @@ body {
 ::before,
 ::after {
   box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -607,6 +611,8 @@ form.newsletterForm input[type=submit]:hover {
 
 .contactForm input {
   border-radius: 999px;
+  background-color: #494e6e;
+  color: white;
 }
 
 .contactForm label,
@@ -622,6 +628,8 @@ form.newsletterForm input[type=submit]:hover {
 
 .contactForm textarea {
   border-radius: 5px;
+  background-color: #494e6e;
+  color: white;
 }
 
 .contactForm input[type=submit] {
@@ -630,7 +638,8 @@ form.newsletterForm input[type=submit]:hover {
   font-size: 2vh;
   cursor: pointer;
   transition: all ease-in-out 250ms;
-  background-color: white;
+  background-color: #494e6e;
+  -moz-background
 }
 
 .contactForm input[type=submit]:hover {
@@ -670,23 +679,23 @@ form.newsletterForm input[type=submit]:hover {
 }
 
 ::-webkit-input-placeholder {
-  color: #1A1B1D;
+  color: white;
 }
 
 ::-moz-placeholder {
-  color: #1A1B1D;
+  color: white;
 }
 
 :-ms-input-placeholder {
-  color: #1A1B1D;
+  color: white;
 }
 
 ::-ms-input-placeholder {
-  color: #1A1B1D;
+  color: white;
 }
 
 ::placeholder {
-  color: #1A1B1D;
+  color: white;
 }
 
 footer {
