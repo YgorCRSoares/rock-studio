@@ -30,6 +30,10 @@ body {
   font-family: "Metal Mania", system-ui;
 }
 
+.footerFont {
+  font-family: "Metal Mania", system-ui;
+}
+
 a {
   text-decoration: inherit;
   color: inherit;
@@ -794,6 +798,7 @@ button[name=backSite] {
   transform: translate3d(-3vw, 0, 0);
   transition: all ease-in-out 1s;
   margin-top: 50px;
+  text-align: center;
 }
 
 .animatableOpacity {

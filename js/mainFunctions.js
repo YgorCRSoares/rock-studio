@@ -179,10 +179,10 @@ document.addEventListener('DOMContentLoaded', function () {
 $(function () {
   $('.facebook').on('click', function (event) {
     event.preventDefault();
-    window.location.href = "https://facebook.com/";
+    window.open("https://www.facebook.com/warmakershs");
   });
   $('.instagram').on('click', function (event) {
     event.preventDefault();
-    window.location.href = "https://www.instagram.com/";
+    window.open("https://www.instagram.com/ygor_cezar");
   });
 })
