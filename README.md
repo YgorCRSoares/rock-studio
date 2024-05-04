@@ -10,8 +10,8 @@ Some custom fonts in band names and other's place to make the page more "niiiice
 
 in short: Its a nice landpage with some javascript and some good responsivity on mobiles views and etc!
 
-Link for demo: https://warmakershstudio.vercel.app/!
-[alt text](image.png)
+Link for demo: https://warmakershstudio.vercel.app/
+![alt text](image.png)
 
 ------------------------------------------------------------------------------------------------------
 
