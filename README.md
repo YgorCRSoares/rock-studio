@@ -11,6 +11,7 @@ Some custom fonts in band names and other's place to make the page more "niiiice
 in short: Its a nice landpage with some javascript and some good responsivity on mobiles views and etc!
 
 Link for demo: https://warmakershstudio.vercel.app/
+
 ![alt text](image.png)
 
 ------------------------------------------------------------------------------------------------------
@@ -28,4 +29,5 @@ Algumas fontes personalizadas nos nomes das bandas e outras no lugar para deixar
 resumindo: é uma página de destino legal com algum javascript e uma boa responsividade nas visualizações de celulares e etc!
 
 Link para demonstração: https://warmakershstudio.vercel.app/
+
 ![alt text](image-1.png)
